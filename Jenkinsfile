@@ -1,4 +1,4 @@
-@Library('Pipeline') _
+@Library('PipelineConfiguration') _
 import com.org.foo.*
 
 PipelineConfiguration pl = new PipelineConfiguration()
