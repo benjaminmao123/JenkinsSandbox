@@ -1,4 +1,4 @@
-@Library('pipelineconfiguration') _
+@Library('JenkinsSandboxLibrary') _
 import com.org.foo.*
 
 PipelineConfiguration pl = new PipelineConfiguration()
