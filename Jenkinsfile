@@ -1,15 +1,9 @@
-node()
-{
-    stage('Checkout')
-    {
-        checkout scm
-    }
-    stage('Build')
-    {
-        sh 'mvn clean package'
-    }
-    stage('Deploy')
-    {
-        sh 'kubectl apply -f deployment.yaml'
-    }
+import com.org.foo.*
+
+PipelineConfiguration pl = new PipelineConfiguration()
+
+if (env.BRANCH_NAME == 'main') {
+    echo 'Running on main branch'
 }
+
+Pipeline(pl)
