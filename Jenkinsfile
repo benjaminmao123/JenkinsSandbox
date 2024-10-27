@@ -6,4 +6,4 @@ if (env.BRANCH_NAME == 'main') {
     echo 'Running on main branch'
 }
 
-pipeline(pl)
+sandboxPipeline(pl)
