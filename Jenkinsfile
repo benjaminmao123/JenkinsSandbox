@@ -1,5 +1,4 @@
-@Library('JenkinsSandboxLibrary') _
-import com.org.foo.*
+import org.foo.*
 
 def pl = new PipelineConfiguration()
 
