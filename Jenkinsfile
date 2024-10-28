@@ -4,6 +4,13 @@ PipelineConfiguration pl = new PipelineConfiguration()
 
 if (env.BRANCH_NAME == 'main') {
     echo 'Running on main branch'
-}
+    pl.branchName = 'main'
 
-sandboxPipeline(pl)
+    mainPipeline(pl)
+}
+else {
+    echo 'Running on develop branch'
+    pl.branchName = 'develop'
+
+    developPipeline(pl)
+}
