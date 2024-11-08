@@ -2,15 +2,15 @@ import org.foo.*
 
 PipelineConfiguration pl = new PipelineConfiguration()
 
-def commit = bat(returnStdout: true, script: 'git log -1 --oneline').trim()
+// def commit = bat(returnStdout: true, script: 'git log -1 --oneline').trim()
 
-String commitMsg = ''
+// String commitMsg = ''
 
-List commitMsgPre = commit.split(' ')
+// List commitMsgPre = commit.split(' ')
 
-for (int i = 1; i < commitMsgPre.size(); i++) {
-    commitMsg += commitMsgPre[i] + ' '
-}
+// for (int i = 1; i < commitMsgPre.size(); i++) {
+//     commitMsg += commitMsgPre[i] + ' '
+// }
 
 echo "Commit message: ${commitMsg}"
 
