@@ -2,7 +2,7 @@ import org.foo.*
 
 PipelineConfiguration pl = new PipelineConfiguration()
 
-// def commit = bat(returnStdout: true, script: 'git log -1 --oneline').trim()
+def commit = bat(returnStdout: true, script: 'git log -1 --oneline').trim()
 
 // String commitMsg = ''
 
