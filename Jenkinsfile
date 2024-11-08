@@ -12,7 +12,7 @@ PipelineConfiguration pl = new PipelineConfiguration()
 //     commitMsg += commitMsgPre[i] + ' '
 // }
 
-echo "Commit message: ${commitMsg}"
+// echo "Commit message: ${commitMsg}"
 
 if (env.BRANCH_NAME == 'main') {
     echo 'Running on main branch'
