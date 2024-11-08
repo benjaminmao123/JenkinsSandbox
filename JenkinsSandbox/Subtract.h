@@ -4,6 +4,6 @@
 
 class Subtract : public Operator
 {
-    public:
+public:
     Subtract();
 };

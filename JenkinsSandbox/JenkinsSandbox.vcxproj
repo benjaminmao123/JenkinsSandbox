@@ -127,7 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="Divide.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Multiply.cpp" />
+    <ClCompile Include="Operator.cpp" />
+    <ClCompile Include="Subtract.cpp" />
+    <ClCompile Include="Symbol.cpp" />
+    <ClCompile Include="Term.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Divide.h" />
+    <ClInclude Include="Multiply.h" />
+    <ClInclude Include="Operator.h" />
+    <ClInclude Include="Subtract.h" />
+    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="Term.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
