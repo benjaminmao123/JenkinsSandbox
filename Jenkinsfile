@@ -18,4 +18,4 @@ if (env.BRANCH_NAME == 'main') {
     echo 'Running on main branch'
 }
 
-sandboxPipeline(pl)
+mainPipeline(pl)
